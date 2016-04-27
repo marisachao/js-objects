@@ -7,7 +7,8 @@ function(message) {
 
 for (var i = 0; i<students.length; i++) {
   student = students[i];
-  message += '<h1>' + student.name + '</h1>';
+  message += '<h2>' + student.name + '</h2>';
+  message += '<p>' + student.track + '</p>';
 }
 
 print(message);
