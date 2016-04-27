@@ -1,7 +1,7 @@
 var message = '';
 var student;
 
-function(message) {
+function print (message) {
   document.write("<section>" + message + "</section>");
 }
 
